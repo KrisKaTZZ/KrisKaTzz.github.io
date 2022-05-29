@@ -111,6 +111,7 @@ margin-top: 20px;
     margin: 0 6px;
     color: #324950;
     text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -384,11 +385,15 @@ margin-left: 0px;
 
 
 /* INDEX 2 */
-
+.body{
+     font-family: 'Roboto Slab';
+font-style: normal;
+}
 
 
 .headerr{
-  
+   font-family: 'Roboto Slab';
+font-style: normal;
     height: 113px;
     
   padding-left:80px;
@@ -493,9 +498,12 @@ font-size: 17px;
 
 .text3p {
     border-left: 3px solid #EB5757;
-     font-size: 17px;
+     font-size: 19px;
     color: #324950;
+    font-weight: bold;
     padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
    
 
 }
@@ -504,21 +512,27 @@ font-size: 17px;
 
 .containercard{
     margin-top: 50px;
-    height: 1500px;
+    height: 1250px;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1020px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .veg-thum {
-max-height:  400px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 300px;
+    
 }
 
-.veg-thum img{
+.veg-thum img {
     max-width: 100%;
     max-height: 100%;
-} 
+}
+
+
 
 .veg-details a {
     background-color: white;
@@ -528,5 +542,12 @@ display: block;
 color: #57984C;
 font-size: 16px;
 padding-bottom: 20px;
+    padding-top: 10px;
+
 }
 
+.veg-details strong {
+
+   font-size: 20px;
+    font-weight: bold;
+}
