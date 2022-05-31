@@ -551,3 +551,301 @@ padding-bottom: 20px;
    font-size: 20px;
     font-weight: bold;
 }
+
+
+
+
+
+
+/* INDEX 3 */
+
+.header3{
+   font-family: 'Roboto Slab';
+font-style: normal;
+    height: 123px;
+  padding-left:80px;
+    padding-right: 90px;
+margin-bottom: 50px;
+  top: 0;
+    left: 45px;
+    right: 45px;
+    z-index: 1000;
+    margin: 15px 0;
+    background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.containerfon3{
+    height: 45px;
+    
+}
+
+
+.linktomato{
+    text-decoration: none;
+    color: #57984C;
+    position: absolute;
+    padding-left: 120px;
+}
+
+
+
+
+
+/*About index 3 */
+
+
+
+
+.containerind3{
+    
+height: 885px;
+background-size: cover;
+margin: 0 auto;
+background: url(../images/Union2.png) no-repeat;
+margin-left: 0px;    
+    
+}
+
+.about-wrapper{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-blockind3{
+    max-width: 450px;
+
+}
+
+.about-titleind3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 45px;
+    font-weight: bold;
+    color: #324950;
+margin-bottom: 0px;
+width: 526px;
+top: 100;
+}
+.about-titleind4{
+    margin-top: 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 45px;
+    font-weight: bold;
+    color: #57984C;
+
+width: 526px;
+top: 100;
+padding-bottom: 20px;
+}
+
+
+.about-text{
+    font-size: 18px;
+    color: #324950;
+}
+
+.aboutzv{
+    color: #57984C;
+    text-align: left;
+    font-size: 16px;
+}
+
+.about-imgind3{
+    
+    height: 400px;
+}
+
+.aboutpp{
+position: absolute;
+width: 395px;
+height: 86px;
+left: 390px;
+top: 455px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+
+color: #CF2333;
+}
+
+.iconind3{
+    position: absolute;
+width: 80px;
+left: 300px;
+top: 457px;
+}
+
+
+
+.h3ind3about{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+    position: absolute;
+    left: 300px;
+top: 581px;
+    padding-bottom: 5px;
+border-bottom: 2px solid #57984C;
+}
+
+
+
+.pind3about{
+    position: absolute;
+width: 495px;
+height: 84px;
+left: 299px;
+top: 632px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-size: 17px;
+line-height: 162.7%;
+
+color: #324950;
+}
+
+.imgab{
+
+position: absolute;
+width: 225px;
+height: 55px;
+left: 220px;
+top: -277px;
+
+}
+
+
+.h3ind3about2{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+    position: absolute;
+    left: 300px;
+top: 724px;
+    padding-bottom: 5px;
+border-bottom: 2px solid #57984C;
+}
+
+
+.ulind3{
+    position: absolute;
+width: 374px;
+height: 102px;
+left: 281px;
+top: 771px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+
+}
+
+li {
+    color: #57984C;
+}
+
+li span {
+    color: #324950; 
+}
+
+
+.h3ind3about3{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+    position: absolute;
+    left: 300px;
+top: 883px;
+    padding-bottom: 5px;
+border-bottom: 2px solid #57984C;
+}
+
+
+.ulind4{
+    position: absolute;
+width: 374px;
+height: 102px;
+left: 281px;
+top: 929px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+
+}
+
+
+.h3ind3about4{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+    position: absolute;
+    left: 800px;
+top: 703px;
+    padding-bottom: 5px;
+border-bottom: 2px solid #57984C;
+}
+
+.ulind5{
+    position: absolute;
+width: 374px;
+height: 102px;
+left: 780px;
+top: 745px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+
+}
+
+.h3ind3about5{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+    position: absolute;
+    left: 800px;
+top: 850px;
+    padding-bottom: 5px;
+border-bottom: 2px solid #57984C;
+}
+
+.ulind6{
+    position: absolute;
+width: 374px;
+height: 102px;
+left: 768px;
+top: 900px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+list-style-type: none;
+}
