@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'roboto-slab-black';
     margin: 0;
@@ -100,23 +102,23 @@ top: 20px;
 
 /* Nav */
 
-.nav{
+.navbar{
 font-size: 18px;     
-margin-top: 20px;
+margin-top: 10px;
 }
 
-.nav_link{
+.nav-link{
     display: inline-block;
     vertical-align: top;
-    margin: 0 6px;
+    margin: 0 2px;
     color: #324950;
     text-decoration: none;
     font-weight: bold;
 }
+.navbar-nav a{
+color: #324950;
 
-
-
-
+}
 
 /* Search */
 .search{
@@ -125,24 +127,31 @@ margin-top: 20px;
 }
 
 * {box-sizing: border-box;}
-form {
+.searchform {
   position: relative;
   width: 300px;
   margin: 0 auto;
  
   border-bottom: 4px solid #324950;
 }
-input, button {
+.searchform2 {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+ 
+  border-bottom: 4px solid #324950;
+}
+.imputsearch, .battsearch {
   border: none;
   outline: none;
   background: transparent;
 }
-input {
+.imputsearch {
   width: 100%;
   height: 42px;
   padding-left: 15px;
 }
-button {
+.battsearch {
   height: 42px;
   width: 42px;
   position: absolute;
@@ -150,10 +159,17 @@ button {
   right: 0;
   cursor: pointer;
 }
-button:before {
+.battsearch:before {
   content: url(../images/search.png);
   font-size: 20px;
   color: #324950;
+}
+
+
+.navbar-toggler {
+    position: absolute;
+    left: 291px;
+    top: -49px;
 }
 
 
@@ -174,9 +190,33 @@ button:before {
 
 }
 
+/*Freatures*/
+
+.product_item p {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+}
 
 
-/* Features */
+.colection {
+    background-color: #fff;
+    height: 103px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+/* Features 
 
 .container3{
   
@@ -211,20 +251,31 @@ margin-left: 0px;
     font-size: 19px;
     color: #324950;
 }
-
+*/
 
 /* About */
 
 
 .container4{
     
-height: 885px;
+height: 1190px;
 background: url(../images/Union.png)no-repeat ;
 background-size: cover;
 margin: 0 auto;
     margin-top: 50px;
 margin-left: 0px;    
+ 
+}
+
+.about{
     
+height: 1190px;
+background: url(../images/Union2.png)no-repeat ;
+background-size: cover;
+margin: 0 auto;
+    margin-top: 50px;
+margin-left: 0px;    
+
 }
 
 .about-wrapper{
@@ -240,26 +291,26 @@ margin-left: 0px;
     margin-top: 60px;
 }
 
-.about-title{
+.about-title {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 86px;
     color: #324950;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.about-text{
-    font-size: 18px;
+.vision_text p {
+    font-size: 24px;
     color: #324950;
 }
 
-.aboutzv{
+.crosses p {
     color: #57984C;
     text-align: left;
-    font-size: 16px;
+    font-size: 26px;
 }
 
-.about-img{
-    height: 450px;
+.about-img {
+    height: 536px;
 }
 
 
@@ -294,6 +345,7 @@ width: 100%;
 max-width: 1100px;
 margin: 0 auto;
 margin-top: 50px;
+  
 }
 
 .prod-thum {
@@ -331,17 +383,28 @@ font-size: 18px;
 /* FOOTER */
 
 
-.container6{
-    background: #2D3F45;
-    height: 110px;
-margin: 0 auto;
- 
-margin-left: 0px;
+.footerFirst {
+    background-color: #2D3F45;
+    padding-top: 5px;
 }
 
+
+.footerFirst .row {
+    margin-top: 10px;
+}
 .footer{
     display: flex; 
     margin-left: 200px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer_link{
+  list-style-type: none;  
 }
 
 .footer-link{
@@ -351,16 +414,30 @@ margin-left: 0px;
   
 }
 
+.footer_item {
+    margin: 0 13px;
+    margin-top: 5px;
+}
+.footer_item a {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s linear;
+    text-decoration: none;
+}
+.footer_link a {
+    margin: 0 5px;
+}
+
 .footera{
     text-decoration: none;
     color: #fff;
 }
 
-.footer-foto{
-    width: 1%;
-    text-align: right;
-    margin-top: 40px;
-    padding-left: 60px;
+.footer-foto {
+    padding-top: 36px;
+    margin-left: 7px;
 }
 
 
@@ -385,13 +462,21 @@ margin-left: 0px;
 
 
 /* INDEX 2 */
+
+.containerind2 {
+    width: 93%;
+    margin: 0 auto;
+    margin-left: 74px;
+}
+
+
 .body{
      font-family: 'Roboto Slab';
 font-style: normal;
 }
 
 
-.headerr{
+.headerind2{
    font-family: 'Roboto Slab';
 font-style: normal;
     height: 113px;
@@ -556,24 +641,57 @@ padding-bottom: 20px;
 
 
 
+.imgtom1{
+   width: 500px; 
+    height: 400px;
+    padding-top: 20px; 
+}
+
+.imgtom2 {
+    height: 350px; 
+    padding-top: 20px;
+}
+
+.imgtom3{
+  width: 350px; padding-top: 20px;
+}
+.imgtom4{
+width: 350px; padding-top: 20px;
+}
+.imgtom5{
+width: 450px; height: 100%; padding-top: 20px;  
+}
+.imgtom6{
+width: 450px; height: 100%; padding-top: 20px;
+}
+.imgtom7{
+width: 450px; padding-top: 20px; 
+}
+.imgtom8{
+width: 450px; height: 300px; padding-top: 20px;
+}
+
 
 /* INDEX 3 */
 
-.header3{
-   font-family: 'Roboto Slab';
-font-style: normal;
-    height: 123px;
-  padding-left:80px;
+.headerind3 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    height: 131px;
+    padding-left: 80px;
     padding-right: 90px;
-margin-bottom: 50px;
-  top: 0;
+    top: 0;
     left: 45px;
     right: 45px;
     z-index: 1000;
     margin: 15px 0;
-    background: #FFFFFF;
+        background: #FFFFFF;
 box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+        margin-top: 0px;
 }
+
+
 
 .containerfon3{
     height: 45px;
@@ -602,7 +720,6 @@ box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
 height: 885px;
 background-size: cover;
 margin: 0 auto;
-background: url(../images/Union2.png) no-repeat;
 margin-left: 0px;    
     
 }
@@ -715,14 +832,12 @@ line-height: 162.7%;
 color: #324950;
 }
 
-.imgab{
-
-position: absolute;
-width: 225px;
-height: 55px;
-left: 220px;
-top: -277px;
-
+.imgab {
+    position: absolute;
+    width: 225px;
+    height: 55px;
+    left: 206px;
+    top: -234px;
 }
 
 
@@ -1053,7 +1168,7 @@ position: absolute;
 }
 
 
-.You ul, li{
+.You ul{
     text-decoration: none;
     list-style:none;
     text-align: left;
@@ -1062,6 +1177,14 @@ position: absolute;
     color: #324950;
 }
 
+.You li{
+    text-decoration: none;
+    list-style:none;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 10px;
+    color: #324950;
+}
 
 .Yout {
     text-decoration: none;
