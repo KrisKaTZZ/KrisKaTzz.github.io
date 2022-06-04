@@ -16,40 +16,60 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
-
+<link rel="stylesheet" href="css/responsive3.css">
+    <meta name="viewport" content="width=320, initial-scale=1.0"/>
     
 </head>
 <body class="body">
     
 <!--   Header -->
     
-<header class="header3">
-    <div class="container1">
+<header class="headerind3">
+    <div class="containerind2">
+      
         <div class="header_inner">
-            <div class="header_logo" ><img src="images\logo.png"></div>
+            <div class="header_logo"><img class="imgheader" src="images\logo.png"></div>
             
             <div class="search">
-                <form>
-  <input type="text" placeholder="Search">
-  <button type="submit"></button>
+                <form class="searchform2">
+  <input class="imputsearch" type="text" placeholder="Search">
+  <button class="battsearch" type="submit"></button>
 </form>
          
-<!--   Nav   -->
-            
-        <nav class="nav">
-           
-            <a class="nav_link" href="index.html">Home</a>
-            <a class="nav_link" href="#">Company Profile</a>
-            <a class="nav_link" href="index2.html">Products</a>
-            <a class="nav_link" href="#">Services</a>
-            <a class="nav_link" href="#">R^D </a>
-            <a class="nav_link" href="index4.html">Contact</a>
-            
-        </nav>    
-          </div>  
-            
-        </div>        
-    </div>
+         
+         
+         
+         <nav class="navbar navbar-expand-lg">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Company Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index2.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">R^D</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+</nav>
 
 </header>    
 <!-- ФОН   -->
@@ -161,48 +181,55 @@ Red Standard Round</h2>
   
   
    
-     <div class="container6">
-            <div class="footer">
-                <div class="footer-link">
-                   <a href="#" class="footera">PROFILE</a>
+      <section id="footerFirst" class="footerFirst">
+         <div class="container6">
+           <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <ul class="footer_menu">
+                                <li class="footer_item"> 
+                                    <a href="#">PROFILE</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">MANAGEMENT</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="tomatoAll.html">PRODUCTS</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">R&amp;D</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">LINKS</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">SITEMAP</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">CONTACT</a>
+                                </li>
+                            </ul> 
+                        </div>
+                        <div class="col-lg-3 d-flex justify-content-center ml-auto">
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_fb.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_in.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_tube.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_inst.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_tw.png" alt="fb" class="link"></a>
+                            </li>
+                        </div>
                 </div>
-                <div class="footer-link">
-                   <a href="#" class="footera">MANAGEMENT</a>
-                </div>
-                <div class="footer-link">
-                   <a href="#" class="footera">PRODUCTS</a>
-                </div>
-                <div class="footer-link">
-                   <a href="#" class="footera">R&D</a>
-                </div>
-                <div class="footer-link">
-                   <a href="#" class="footera">LINKS</a>
-                </div>
-                <div class="footer-link">
-                   <a href="#" class="footera">SITEMAP</a>
-                </div>
-                <div class="footer-link">
-                   <a href="#" class="footera">CONTACT</a>
-                </div>
-   
-                 <div class="footer-foto">
-                   <a href="#" class="footera"><img src="./images/Ico_fb.png" alt="fb" class="link"></a>
-                </div>
-                 <div class="footer-foto">
-                   <a href="#" class="footera"><img src="./images/Ico_in.png" alt="fb" class="link"></a>
-                </div>
-                 <div class="footer-foto">
-                   <a href="#" class="footera"><img src="./images/Ico_inst.png" alt="fb" class="link"></a>
-                </div>
-                 <div class="footer-foto">
-                   <a href="#" class="footera"><img src="./images/Ico_tube.png" alt="fb" class="link"></a>
-                </div>
-                 <div class="footer-foto">
-                   <a href="#" class="footera"><img src="./images/Ico_tw.png" alt="fb" class="link"></a>
-                </div>
-   
-         </div>
-    </div>
+            </div>
+    </section>
+           
     
     
     <div class="container7">
