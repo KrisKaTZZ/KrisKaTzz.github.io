@@ -385,12 +385,12 @@ font-size: 18px;
 
 .footerFirst {
     background-color: #2D3F45;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 
 .footerFirst .row {
-    margin-top: 10px;
+    margin: 0 auto;
 }
 .footer{
     display: flex; 
@@ -976,315 +976,199 @@ list-style-type: none;
 
 
 
-
-.conaitertext4{
-    height: 1120px;
-    width: 100%;
-    max-width: 1000px;
+.container56 {
+    height: 888px;
+    width: 90%;
+    max-width: 1013px;
     margin: 0 auto;
-
+    margin-left: 330px;
 }
 
-.textH4 h1 {
-   
-position: absolute;
-width: 221px;
-height: 63px;
-left: 405px;
-top: 553px;
 
+.contactUs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 240, 240);
+}
+
+.contactUs_item p {
+    color: #324950;
+}
+
+
+.contactUs_title {
+    font-size: 44px;
+}
+
+.contactUs_title h1{
+font-family: 'Roboto Slab';
+font-style: normal;
 font-weight: 700;
 font-size: 44px;
-color: #324950;
+line-height: 142.7%;
+    color: #324950;
 }
 
-.textH4 p {
-position: absolute;
-width: 47.24px;
-height: 6.24px;
-left: 405px;
-top: 626px;
+
+.contactUs_item input, textarea {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    width: 100%;
+    padding: 13px;
+}
+
+.contactUs_item select {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    width: 100%;
+    padding: 16px;
+}
+
+.contactUs_item textarea {
+    height: 387px;
+    resize: none;
+}
+
+.code_button button {
+    background-color: #57984C;
+    border: 0px;
+    border-radius: 60px;
+    padding: 13px 60px 13px 60px;
+    color: #fff;
+    cursor: pointer;
+    width: 241px;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size:  18px;
+    transition: 0.4s linear;
+    
+}
+
+.code_button button:hover {
+    transition: 0.4s linear;
+    background-color: #306626;
+}
+
+.contactUs_item {
+    padding-top: 20px;
+}
+
+.contactUs_Name {
+    font-size: 17px;
+}
+
+.address {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.address p {
+    margin-bottom: 0;
+    color: #324950;
+}
+
+.address h3 {
+    font-size: 20px;
     color: #57984C;
-    font-weight: bold;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.address_text {
+    text-align: center;
+}
+
+.address_text .line {
+    padding: 20px;
 }
 
 
+.contactUs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 240, 240);
+}
 
-.pname{
-position: absolute;
-left: 405px;
-top: 674px;
-font-weight: 400;
-font-size: 19px;
-color: #324950;
+.contactUs_title {
+    font-size: 44px;
+}
+
+.contactUs_title h1{
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 
-.name { 
-    
-    box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 189px;
-    border-radius: 10px;
-    background: #FFFFFF;
-border: 1px solid #DADADA;
-}
-
-
-.pCompany{
-position: absolute;
-left: 405px;
-top: 774px;
-font-weight: 400;
-font-size: 19px;
-color: #324950;   
-}
-
-.Company{
-   box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 242px;
-    border-radius: 10px;
+.contactUs_item input, textarea {
     background: #FFFFFF;
     border: 1px solid #DADADA;
-}
-
-.pPosition{
-    position: absolute;
-left: 405px;
-top: 871px;
-font-weight: 400;
-font-size: 19px;
-color: #324950;  
-}
-
-
-.Position{
-    box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 296px;
     border-radius: 10px;
+    width: 100%;
+    padding: 13px;
+}
+
+.contactUs_item select {
     background: #FFFFFF;
-    border: 1px solid #DADADA; 
-}
-
-.pCity{
-        position: absolute;
-left: 405px;
-top: 971px;
-font-weight: 400;
-font-size: 19px;
-color: #324950;  
-}
-
-.City{
-       box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 350px;
+    border: 1px solid #DADADA;
     border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA;  
+    width: 100%;
+    padding: 16px;
 }
 
-
-
-.pCountry{
-          position: absolute;
-left: 405px;
-top: 1071px;
-font-weight: 400;
-font-size: 19px;
-color: #324950;   
+.contactUs_item textarea {
+    height: 387px;
+    resize: none;
 }
 
-.Country{
-        box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 404px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA;  
-}
-
-.pTelephone{
-              position: absolute;
-left: 405px;
-top: 1171px;
-font-weight: 400;
-font-size: 19px;
-color: #324950; 
-}
-
-
-.Telephone{
-            box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 458px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA; 
-}
-
-
-.pEmail{
-                  position: absolute;
-left: 405px;
-top: 1271px;
-font-weight: 400;
-font-size: 19px;
-color: #324950; 
-}
-
-.Email{
-                box-sizing: border-box;
-    width: 292px;
-    height: 45px;
-    left: -215px;
-    top: 512px;
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA; 
-}
-
-.pYou{
-position: absolute;
-    left: 905px;
-    top: 674px;
+.code_button button {
+    background-color: #57984C;
+    border: 0px;
+    border-radius: 60px;
+    padding: 13px 60px 13px 60px;
+    color: #fff;
+    cursor: pointer;
+    width: 241px;
+    font-family: 'Roboto Slab';
     font-weight: 400;
-    font-size: 19px;
-    color: #324950;
-}
-
-
-.You ul{
-    text-decoration: none;
-    list-style:none;
-    text-align: left;
-    padding-top: 8px;
-    padding-left: 10px;
-    color: #324950;
-}
-
-.You li{
-    text-decoration: none;
-    list-style:none;
-    text-align: left;
-    padding-top: 8px;
-    padding-left: 10px;
-    color: #324950;
-}
-
-.Yout {
-    text-decoration: none;
-    box-sizing: border-box;
-    position: absolute;
-    width: 385px;
-    height: 45px;
-    left: 902px;
-    top: 713px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
+    font-size:  18px;
+    transition: 0.4s linear;
     
 }
 
-
-
-.pplease{
-    position: absolute;
-    left: 907px;
-    top: 774px;
-    font-weight: 400;
-    font-size: 19px;
-    color: #324950;
+.code_button button:hover {
+    transition: 0.4s linear;
+    background-color: #306626;
 }
 
-.please{
-    text-decoration: none;
-    box-sizing: border-box;
-    width: 385px;
-    height: 45px;
-    left: 334px;
-    top: -25px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
+.contactUs_item {
+    padding-top: 20px;
 }
 
-
-.pinterested{
-       position: absolute;
-    left: 907px;
-    top: 874px;
-    font-weight: 400;
-    font-size: 19px;
-    color: #324950;
+.contactUs_Name {
+    font-size: 17px;
 }
 
-
-.interested{
-        text-decoration: none;
-    box-sizing: border-box;
-    width: 385px;
-    height: 338px;
-    left: 337px;
-    top: 29px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
+.address {
+    background-color: #fff;
+    padding: 15px 0;
 }
 
-
-.ptype{ 
-         position: absolute;
-    left: 907px;
-    top: 1274px;
-    font-weight: 400;
-    font-size: 19px;
-    color: #324950;
+.address p {
+    margin-bottom: 0;
 }
 
-
-.type{
-           text-decoration: none;
-    box-sizing: border-box;
-    width: 185px;
-    height: 45px;
-    left: 364px;
-    top: 85px;
-    background: #FFFFFF;
-    border: 1px solid #DADADA;
-    border-radius: 10px;
+.address h3 {
+    font-size: 20px;
+    color: #57984C;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
-.sedndbutt{
-position: absolute;
-    width: 235px;
-    height: 55px;
-    left: 1260px;
-    top: 1300.5px;
-
-
+.address_text {
+    text-align: center;
 }
 
-.capza{
-       position: absolute;
-    width: 99px;
-    height: 27px;
-    left: 914px;
-    top: 1318.5px;
+.address_text .line {
+    padding: 20px;
 }
 
 .h3Address{
@@ -1294,9 +1178,7 @@ position: absolute;
     font-size: 20px;
     line-height: 142.7%;
     color: #57984C;
-    position: absolute;
-    left: 750px;
-    top: 1463px;
+    display: flex;
     padding-bottom: 5px;
     border-bottom: 2px solid #57984C;
 }
@@ -1318,3 +1200,6 @@ position: absolute;
 .telll{
     color: #57984C;
 }
+
+
+
