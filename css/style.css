@@ -1,5 +1,84 @@
+/*BURGER*/
 
 
+/* .openMenu {
+    visibility: hidden;
+} */
+
+.closeMenu {
+    display: none;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+     right: 0;
+    left: auto;
+}
+
+.burgerMenu {
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+ right: 0;
+    left: auto;
+}
+
+
+
+.menuUp {
+    display: block;
+}
+
+.burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 3px;
+    background-color: #324950;
+    transition: 0.5s all;
+    visibility: hidden;
+}
+.second, .third{
+    top: 18px;
+}
+
+.fourth{
+    top: 28px;
+}
+
+.hided {
+    visibility: hidden;
+}
+
+.active {
+    z-index: 3;
+    position: absolute;
+    background-color: #324950; 
+    width: 100%;
+    text-align: center;
+    margin-left: 2%;
+     right: 0;
+    left: auto;
+}
+
+.active a {
+    color: #fff;
+    padding-right: 5%;
+}
+
+.active li {
+    padding-bottom: 30px;
+}
+
+.active .openMenu {
+    display: none;
+}
+
+
+
+
+/*BURGER*/
 body {
     font-family: 'roboto-slab-black';
     margin: 0;
@@ -12,6 +91,90 @@ body {
 h1, h2, h3, h4 , h5 , h6 {
     margin: 0;
 }
+
+/*HEADER NEW*/
+
+button {
+    font-family: "RotondaMedium";
+    cursor: pointer;
+}
+
+input:focus, button:focus, textarea:focus {
+    outline: none;
+
+}
+
+.menu {
+    padding-top: 24px;
+    right: 0;
+    left: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.redText {
+    color: #CF2333;
+    font-weight: normal;
+}
+
+.logo img {
+    height: 100px;
+    transition: 0.4s linear;
+}
+.logo img:hover{
+    opacity: 0.4;
+    transition: 0.4s linear;
+}
+
+.menu__item {
+    margin: 0 10px;
+    
+}
+
+.menu__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #324950;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    transition: 0.6s linear;
+}
+.menu__item a:hover{
+    color:#ddb546;
+    transition: 0.4s linear;
+}
+
+.active {
+    z-index: 3;
+    position: absolute;
+    background-color: #324950; 
+    width: 90%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.active a {
+    color: #fff;
+    padding-right: 5%;
+}
+
+.active li {
+    padding-bottom: 30px;
+}
+
+.active .openMenu {
+    display: none;
+}
+
+
+
+/*HEADER NEW END*/
+
+
+
 
 
 @font-face {
@@ -121,9 +284,9 @@ color: #324950;
 }
 
 /* Search */
-.search{
-  display: inline-block;
-
+.search {
+    display: inline-block;
+    padding-left: 130px;
 }
 
 * {box-sizing: border-box;}
@@ -380,6 +543,12 @@ font-size: 18px;
     padding: 5px;
 }
 
+
+.col-lg-5{
+    padding-left: 50px;
+}
+
+
 /* FOOTER */
 
 
@@ -528,6 +697,8 @@ font-size: 18px;
 .products h2 {
     font-size: 20px;
     font-family: 'Robolo Slab', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .products p {
@@ -785,6 +956,7 @@ width: 450px; height: 300px; padding-top: 20px;
 box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
     padding-top: 10px;
         margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -833,10 +1005,15 @@ margin-left: 0px;
 
 }
 
+
+#shhp{
+    color: #57984C;
+}
+
 .about-titleind3{
     text-align: left;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 53px;
     font-weight: bold;
     color: #324950;
 margin-bottom: 0px;
@@ -850,7 +1027,7 @@ top: 100;
     font-size: 45px;
     font-weight: bold;
     color: #57984C;
-
+    margin-left: 0px;
 width: 526px;
 top: 100;
 padding-bottom: 20px;
@@ -904,11 +1081,6 @@ font-weight: 700;
 font-size: 20px;
 line-height: 142.7%;
 color: #57984C;
-    position: absolute;
-    left: 300px;
-top: 581px;
-    padding-bottom: 5px;
-border-bottom: 2px solid #57984C;
 }
 
 
@@ -1073,13 +1245,12 @@ list-style-type: none;
 
 
 .container56 {
-    height: 888px;
+    height: 1224px;
     width: 90%;
     max-width: 1013px;
     margin: 0 auto;
     margin-left: 330px;
 }
-
 
 .contactUs {
     padding-top: 50px;
@@ -1216,7 +1387,7 @@ line-height: 142.7%;
     resize: none;
 }
 
-.code_button button {
+.code_button input {
     background-color: #57984C;
     border: 0px;
     border-radius: 60px;
@@ -1231,7 +1402,7 @@ line-height: 142.7%;
     
 }
 
-.code_button button:hover {
+.code_button input:hover {
     transition: 0.4s linear;
     background-color: #306626;
 }
@@ -1297,5 +1468,152 @@ position: absolute;
     color: #57984C;
 }
 
+/* GARLIK */
 
 
+.tomatoOne {
+    background-image: url(../images/Union2.png);
+    background-color: #E5E5E5;
+    padding-top: 18px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+
+
+
+.tomatoOne .title_text h1, h2{
+    font-size: 54px;
+  
+}
+
+.tomatoOne .title_text h2{
+    color: #57984C;
+}
+
+
+.quality {
+    margin-left: -30px;
+}
+
+.quality_text {
+    color: #CF2333;
+    font-size: 30px; 
+}
+
+.tomatoImage {
+    margin-top: 10px;
+}
+
+.tomatoImage img {
+    width: 100%;
+}
+
+.textBlock {
+    font-size: 20px;
+    font-weight: bold;
+    color: #324950;
+}
+
+.textBlockB {
+    font-size: 20px;
+    font-weight: bold;
+    color: #324950;
+}
+
+.textBlockP {
+    font-size: 15px;
+    color: #324950;
+}
+
+.textBlock_item {
+    margin-top: 50px;
+}
+
+.textBlock_item h3 {
+    font-size: 20px;
+    color: #57984C;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.textBlock_item hr {
+    background-color: #57984C;
+    
+}
+
+.textBlock_item b {
+    font-size: 20px;
+}
+
+.textBlock_item ul {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.textBlock_item li {
+    list-style-type:disc;
+    color: #57984C;
+}
+
+.textBlock_item span {
+    color: #324950;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.download button {
+    background-color: transparent;
+    padding: 8px 20px;
+    border: 3px solid #57984C;
+    box-sizing: border-box;
+    border-radius: 60px;
+    transition: 0.4s linear;
+}
+
+.download button img {
+    height: 20px;
+    padding-right: 5px;
+    margin-top: -5px;
+}
+
+.download button:hover {
+    transition: 0.4s linear;
+    background-color: rgba(41, 140, 24, 0.282);
+}
+
+.download span {
+    padding-left: 10px;
+    color: #57984C;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+@media (max-width: 991px){
+    .quality {
+        text-align: center;
+    }
+    .tomatoImage img {
+        width: 100%;
+    }
+
+}
+@media (max-width: 767px){
+    .quality__text {
+        font-size: 25px;
+    }
+    .tomatoOne .title__text h1, h2{
+        font-size: 40px;
+    }
+    .textBlock_item {
+        margin-left: 20px;
+    }
+    .search {
+        margin-bottom: 20px;
+    }
+}

@@ -13,22 +13,102 @@
     max-width: 976px;
     margin: 0 auto;
 }
+    .logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 33px;
+}
     
-    
-    
-    
-    
-    
+.menu {
+    padding-top: 24px;
+    right: 0;
+    left: auto;
+    position: absolute;
+    right: 26px;
+    top: 60px;
+}
+ .searchform2 {
+    position: absolute;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+    right: 38px;
+    top: 17px;
+}   
+   .products {
+    padding-top: 1px;
+    padding-bottom: 20px;
+} 
     
 }
 @media (max-width:768px)
 {
+    .menu {
+    padding-top: 17px;
+    padding-right: 28px;
+    right: 0;
+    left: auto;
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    background: #d1b39d;
+}
+    
+    
+   .logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 143px;
+}
+    
+    .menuUp {
+    display: block;
+    position: absolute;
+    top: 43px;
+    right: 32px;
+        background-color: #97b59d;
+}
+
+    .openMenu {
+        visibility: visible;
+    }
+    .menuUp {
+        display: none;
+    }
+    .hided {
+        visibility: visible;
+    }
+    .burger-line{
+        visibility: visible;
+    }
+.burgerMenu {
+    position: absolute;
+    padding-top: 10px;
+    right: 0;
+    left: auto;
+    left: 601px;
+}
+    .colection {
+    background-color: #fff;
+    height: 238px;
+} 
+    
+    
+    
     .fontomato {
     width: 100%;
     max-height: 225px;
 }
     
-    
+    .openMenu {
+    visibility: visible;
+}
+.burger-line {
+    visibility: visible;
+}  
+  
      .containercardd {
     height: 1125px;
     width: 85%;
@@ -36,26 +116,30 @@
     margin: 0 auto;
 }
   
- .headerind2 {
+.headerind3 {
     font-family: 'Roboto Slab';
     font-style: normal;
-    height: 171px;
+    height: 131px;
     padding-left: 80px;
     padding-right: 90px;
     top: 0;
     left: 45px;
     right: 45px;
     z-index: 1000;
-    margin: 15px 0;   
+    margin: 15px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgb(0 0 0 / 15%);
+    padding-top: 10px;
+    margin-top: 0px;
+    height: 170px;
+    margin-bottom: 0px;
+}
     
-    }
-    
-    
-  .searchform2 {
+.searchform2 {
     position: absolute;
     width: 300px;
-    top: 140px;
-    left: 219px;
+    top: 110px;
+    left: 36px;
     margin: 0 auto;
     border-bottom: 4px solid #324950;
 }
@@ -92,14 +176,14 @@
     margin: 0 auto;
 }  
     
-  .containermaintext {
+.containermaintext {
     padding: 15px;
     background-color: white;
-    height: 566px;
+    height: 596px;
     width: 89%;
     max-width: 1050px;
     margin: 0 auto;
-}  
+}
     
   .conaitertext2 {
     height: 50px;
@@ -230,6 +314,54 @@
 @media (max-width:640px)
 {
   
+    .logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 118px;
+}
+    
+  .burgerMenu {
+    position: absolute;
+    padding-top: 10px;
+    right: 0;
+    left: auto;
+    left: 514px;
+}  
+     .menuUp {
+    display: block;
+    position: absolute;
+    top: 43px;
+    right: 32px;
+        background-color: #97b59d;
+}
+
+    .openMenu {
+        visibility: visible;
+    }
+    .menuUp {
+        display: none;
+    }
+    .hided {
+        visibility: visible;
+    }
+    .burger-line{
+        visibility: visible;
+    } 
+    
+    .searchform2 {
+    position: absolute;
+    width: 300px;
+    top: 110px;
+    left: 84px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+}
+    
+    
+    
+    
+    
    .navbar {
     position: absolute;
     display: flex;
@@ -250,14 +382,7 @@
     top: 20px;
 }
     
-   .searchform2 {
-    position: absolute;
-    width: 300px;
-    top: 140px;
-    left: 171px;
-    margin: 0 auto;
-    border-bottom: 4px solid #324950;
-} 
+
     
     .conaitertext {
     height: 691px;
@@ -390,14 +515,29 @@
 @media (max-width:480px)
 {
 
-  .searchform2 {
+    .logo {
+    display: flex;
+    justify-content: center;
     position: absolute;
-    width: 300px;
-    top: 140px;
-    left: 91px;
+    left: 76px;
+}
+  .burgerMenu {
+    position: absolute;
+    padding-top: 10px;
+    right: 0;
+    left: auto;
+    left: 394px;
+}  
+    
+
+ .searchform2 {
+    position: absolute;
+    width: 260px;
+    top: 110px;
+    left: 61px;
     margin: 0 auto;
     border-bottom: 4px solid #324950;
-}  
+}
   .header_logo {
     position: absolute;
     width: 226px;
@@ -500,6 +640,30 @@
 
 @media (max-width:400px)
 {
+ .logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 53px;
+}   
+ .burgerMenu {
+    position: absolute;
+    padding-top: 10px;
+    right: 0;
+    left: auto;
+    left: 341px;
+}   
+    
+ .searchform2 {
+    position: absolute;
+    width: 240px;
+    top: 113px;
+    left: 56px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+}   
+
+    
 .navbar-toggler {
     position: absolute;
     left: 51px;
@@ -514,14 +678,7 @@
     top: 20px;
 }  
     
- .searchform2 {
-    position: absolute;
-    width: 300px;
-    top: 136px;
-    left: 53px;
-    margin: 0 auto;
-    border-bottom: 4px solid #324950;
-}   
+ 
     
  .fontomato {
     width: 100%;
@@ -535,14 +692,14 @@
     margin: 0 auto;
 }  
     
-   .containermaintext {
+  .containermaintext {
     padding: 15px;
     background-color: white;
-    height: 896px;
+    height: 923px;
     width: 89%;
     max-width: 1050px;
     margin: 0 auto;
-} 
+}
    .containercard {
     height: 3236px;
     width: 64%;
@@ -625,7 +782,7 @@
     
     
     
-    
+    w
     
     
     
@@ -633,6 +790,44 @@
 
 @media (max-width:320px)
 {
+    
+   .logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+} 
+    
+ .burgerMenu {
+    position: absolute;
+    padding-top: 10px;
+    right: 0;
+    left: auto;
+    left: 286px;
+}   
+    
+    
+.searchform2 {
+    position: absolute;
+    width: 250px;
+    top: 112px;
+    left: 36px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
    .fontomato {
     width: 100%;
@@ -646,15 +841,7 @@
     left: 50px;
     top: 20px;
 }   
-    
- .searchform2 {
-    position: absolute;
-    width: 250px;
-    top: 136px;
-    left: 41px;
-    margin: 0 auto;
-    border-bottom: 4px solid #324950;
-}   
+ 
   .navbar-toggler {
     position: absolute;
     left: -29px;
@@ -665,22 +852,21 @@
     background-color: #FCF0F0;
 }  
     
-   .conaitertext {
-    height: 1083px;
+.conaitertext {
+    height: 1050px;
     width: 91%;
     max-width: 1000px;
     margin: 0 auto;
-} 
+}
     
- .containermaintext {
+.containermaintext {
     padding: 15px;
     background-color: white;
-    height: 1076px;
+    height: 1101px;
     width: 89%;
     max-width: 1050px;
     margin: 0 auto;
-}   
-    
+}
    .containercard {
     height: 3106px;
     width: 96%;
@@ -689,61 +875,7 @@
     padding-top: 5px;
 } 
     
-  .imgtom1 {
-    width: 271px;
-    height: 308px;
-    padding-top: 31px;
-    position: absolute;
-    left: 19px;
-    top: 2652px;
-}  
-    
-   .imgtom2 {
-    height: 331px;
-    width: 270px;
-    position: absolute;
-    top: 3000px;
-} 
-   .imgtom3 {
-    position: absolute;
-    left: 18px;
-    top: 3381px;
-    width: 272px;
-    height: 330px;
-} 
-  .imgtom4 {
-    width: 270px;
-    height: 331px;
-    position: absolute;
-    top: 3765px;
-}  
-    
-   .imgtom5 {
-    width: 270px;
-    height: 334px;
-    position: absolute;
-    top: 4141px;
-} 
-    
-   .imgtom6 {
-    width: 270px;
-    height: 331px;
-    position: absolute;
-    top: 4523px;
-} 
-  .imgtom7 {
-    width: 271px;
-    height: 333px;
-    position: absolute;
-    top: 4902px;
-}  
-.imgtom8 {
-    width: 270px;
-    height: 330px;
-    position: absolute;
-    top: 5290px;
-}  
-    
+ 
  .container7 {
     background: #324950;
     height: 51px;
