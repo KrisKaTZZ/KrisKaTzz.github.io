@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>      
+<script src="https://kit.fontawesome.com/4085781175.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+<link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsiveOne.css">
+   <meta name="viewport" content="width=320, initial-scale=1.0"/>
+    <title>Garlik One</title>
+    <!-- <title>Tomato One</title> -->
+</head>
+
+<body>
+  <header id="headerind3" class="headerind3">
+        <div class="containerind2">
+     <div class="header_inner">
+                <div class="logo col-lg-3">
+                    <a href="index.html"><img src="images/Logo.png" alt="Agridera" class="logo"></a>
+                    <div class="burgerMenu">
+                        <div class="openMenu">
+                            <div class="burger-line first"></div>
+                            <div class="burger-line second"></div>
+                            <div class="burger-line third"></div>
+                            <div class="burger-line fourth"></div>
+                        </div>
+                        <div class="closeMenu">
+                            <div class="burger-line first"></div>
+                            <div class="burger-line second"></div>
+                            <div class="burger-line third"></div>
+                            <div class="burger-line fourth"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ml-auto">
+                    <nav>
+                       <div class="search">
+                <form class="searchform2">
+  <input class="imputsearch" type="text" placeholder="Search">
+  <button class="battsearch" type="submit"></button>
+</form>
+                        </div>
+                        <br>
+                        <div class="menuUp">
+                            <ul class="menu d-flex justify-content-center">
+                                <li class="menu__item"> 
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">Company</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">Profile</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="index2.html">Products</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">Services</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">R&D</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="index4.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            </div>
+        </header>
+
+<!-- ФОН   -->
+
+<div class="containerfon3">
+        <div class="fon3"> <a href="index2.html" class="linktomato"><i class="fa-solid fa-arrow-left-long" style="margin-right: 10px;"></i>Return to all tomatoes</a></div>
+    </div>
+   
+<!-- Text1  -->
+  
+  
+   
+
+    <section class="about">
+    <div class="containerind3">
+            
+
+           
+
+            <div class="row item" v-if="product">
+                <div class="col-lg-6">
+                    <div class="title">
+                        <div class="title_text">
+                            <h1 class="about-titleind3">{{product.title}}</h1>
+                            <h2 class="about-titleind4">{{product.short_text}}</h2>
+                        </div>
+                    
+                            <p class="aboutzv">******</p>
+                       
+                        <div class="row quality">
+                            <div class="col-lg-2">
+                                <img src="images/ind3png.png" alt="quality">
+                            </div>
+                                <div class="col-lg-8">
+                                    <b class="quality_text">Very high yield and excellent fruits quality!</b>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="textBlock">
+                                <div class="textBlock_item">
+                                    <h3 class="h3ind3about" >DESCRIPTION</h3>
+                                    <img src="images/line.svg" alt="line">
+                                    <p>{{product.desc}}</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tomatoImage"><img :src="'img/'+product.image" alt="imgs"></div>
+
+                    <div class="download">
+                        <button @click.prevent="addToCart(product.id)" v-if="!btnVisible"><i id="shhp" class="fa-solid fa-cart-shopping "></i><span>Add to card</span></button>
+                        <a href="index4.html"><button v-if="btnVisible"><i id="shhp" class="fa-solid fa-basket-shopping"></i><span>Go to card</span></button></a>
+                    </div>
+
+                    <div class="textBlock_item">
+                        <h3 class="h3ind3about">Cycle</h3>
+                        <img src="images/line.svg" alt="line">
+                        <br><b class="textBlockB">Resistance</b>
+                        <ul>
+                            <li><span>Spring</span></li>
+                            <li><span>Fall</span></li>
+                            <li><span>Winter</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="textBlock_item">
+                        <h3 class="h3ind3about">Color</h3>
+                        <img src="images/line.svg" alt="line">
+                        <p class="textBlockP">Red</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+           <section id="footerFirst" class="footerFirst">
+         <div class="container6">
+           <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <ul class="footer_menu">
+                                <li class="footer_item"> 
+                                    <a href="#">PROFILE</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">MANAGEMENT</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="tomatoAll.html">PRODUCTS</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">R&amp;D</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">LINKS</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">SITEMAP</a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="#">CONTACT</a>
+                                </li>
+                            </ul> 
+                        </div>
+                        <div class="col-lg-3 d-flex justify-content-center ml-auto">
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_fb.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_in.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_tube.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_inst.png" alt="fb" class="link"></a>
+                            </li>
+                            <li class="footer_link">
+                                <a href="#"><img src="./images/Ico_tw.png" alt="fb" class="link"></a>
+                            </li>
+                        </div>
+                </div>
+            </div>
+    </section>
+           
+
+    
+    
+    <div class="container7">
+        <h1 class="footer2">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</h1>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</html>
