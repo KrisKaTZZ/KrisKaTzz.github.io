@@ -635,6 +635,146 @@
     
 }
 
+@media (max-width:420px)
+{
+    
+.logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 34px;
+}
+     .menuUp {
+    display: block;
+    position: absolute;
+    top: 43px;
+    right: 32px;
+        background-color: #97b59d;
+}
+    
+    
+    
+    .openMenu {
+        visibility: visible;
+    }
+    .menuUp {
+        display: none;
+    }
+    .hided {
+        visibility: visible;
+    }
+    .burger-line{
+        visibility: visible;
+    }
+.burgerMenu {
+    position: absolute;
+    padding-top: 10px;
+    right: 0;
+    left: auto;
+    left: 327px;
+}
+.searchform2 {
+    position: absolute;
+    width: 245px;
+    top: 120px;
+    left: 70px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+}
+    
+.vision_text p {
+    font-size: 18px;
+    color: #324950;
+    text-align: center;
+    width: 346px;
+    margin: 0 auto;
+}
+    
+    .col-lg-5{
+    padding-left: 1px;
+}
+    
+   .vision_img img {
+    height: 360px;
+    padding-left: 0px;
+} 
+    
+ .colection {
+    background-color: #fff;
+    height: 341px;
+}   
+    
+  .imgheader {
+    position: absolute;
+    left: 51px;
+}  
+    
+  .searchform {
+    position: absolute;
+    left: 20px;
+    top: 115px;
+}  
+    .intro_title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #735440;
+    text-align: center;
+    margin-bottom: -2px;
+    padding-top: 31px;
+}
+   .prod-details p {
+    border-top: 1px solid #57984C;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #324950;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0;
+    margin-left: 31px;
+    width: 325px;
+} 
+    
+   .container5 {
+    background: #EDEDED;
+    height: 1045px;
+} 
+.searchform2 {
+    position: absolute;
+    width: 245px;
+    top: 120px;
+    left: 38px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+}    
+  .footer_menu {
+    display: block;
+    margin-left: -55px;
+    text-align: center;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
 @media (max-width:400px)
 {
     

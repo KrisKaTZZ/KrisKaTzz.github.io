@@ -280,6 +280,28 @@
 }
 }
 
+@media (max-width:420px)
+{
+ .logo img {
+    height: 100px;
+    transition: 0.4s linear;
+    position: absolute;
+    left: 204px;
+}
+    .searchform2 {
+    position: absolute;
+    width: 270px;
+    margin: 0 auto;
+    border-bottom: 4px solid #324950;
+    top: 106px;
+    left: -88px;
+}
+    .code_button {
+    padding-top: 30px;
+    padding-left: 57px;
+}
+}
+
 @media (max-width:400px)
 {
  .logo img {
