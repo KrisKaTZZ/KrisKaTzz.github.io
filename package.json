@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "jquery": "^3.6.0"
+  },
+  "name": "praktika",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Kriskat58/praktika2chast.git"
+  },
+  "author": "kirusha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Kriskat58/praktika2chast/issues"
+  },
+  "homepage": "https://gitlab.com/Kriskat58/praktika2chast#readme",
+  "description": ""
+}
